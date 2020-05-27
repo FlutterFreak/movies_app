@@ -103,14 +103,10 @@ class _MoviesHomeState extends State<MoviesHome> {
                                             ),
                                             borderRadius: BorderRadius.only(
                                               topRight: Radius.circular(
-                                                4 *
-                                                    SizeConfig
-                                                        .imageSizeMultiplier,
+                                                4 * SizeConfig.heightMultiplier,
                                               ),
                                               topLeft: Radius.circular(
-                                                4 *
-                                                    SizeConfig
-                                                        .imageSizeMultiplier,
+                                                4 * SizeConfig.heightMultiplier,
                                               ),
                                             ),
                                           ),
@@ -124,8 +120,11 @@ class _MoviesHomeState extends State<MoviesHome> {
                               Expanded(
                                 flex: 2,
                                 child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: <Widget>[
                                         Column(
                                           mainAxisAlignment:
@@ -154,6 +153,8 @@ class _MoviesHomeState extends State<MoviesHome> {
                                       padding: EdgeInsets.all(
                                           1 * SizeConfig.textMultiplier),
                                       child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
                                         children: <Widget>[
                                           Expanded(
                                             flex: 2,

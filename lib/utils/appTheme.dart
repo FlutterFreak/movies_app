@@ -48,27 +48,27 @@ class AppTheme {
     button: button,
   );
 
-  static final TextStyle title = GoogleFonts.workSans(
+  static final TextStyle title = GoogleFonts.rubik(
       fontSize: 4 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
 
-  static final TextStyle subTitle = GoogleFonts.workSans(
+  static final TextStyle subTitle = GoogleFonts.rubik(
       fontSize: 2 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
 
-  static final TextStyle body1 = GoogleFonts.workSans(
+  static final TextStyle body1 = GoogleFonts.rubik(
       fontSize: 3 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
-  static final TextStyle body2 = GoogleFonts.workSans(
+  static final TextStyle body2 = GoogleFonts.rubik(
       fontSize: 2.5 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
-  static final TextStyle display1 = GoogleFonts.workSans(
+  static final TextStyle display1 = GoogleFonts.rubik(
       fontSize: 2 * SizeConfig.heightMultiplier,
       color: Colors.white,
       fontWeight: FontWeight.bold);
 
-  static final TextStyle display2 = GoogleFonts.lato(
+  static final TextStyle display2 = GoogleFonts.rubik(
     fontSize: 1.5 * SizeConfig.heightMultiplier,
     color: Colors.grey[300],
   );
 
-  static final TextStyle button = GoogleFonts.oswald(
+  static final TextStyle button = GoogleFonts.rubik(
       fontSize: 1.75 * SizeConfig.heightMultiplier,
       color: Colors.grey[300],
       fontWeight: FontWeight.bold);
