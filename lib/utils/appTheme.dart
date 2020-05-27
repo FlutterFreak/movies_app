@@ -49,15 +49,15 @@ class AppTheme {
   );
 
   static final TextStyle title = GoogleFonts.workSans(
-      fontSize: 4 * SizeConfig.heightMultiplier, color: Colors.white);
+      fontSize: 4 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
 
   static final TextStyle subTitle = GoogleFonts.workSans(
-      fontSize: 2 * SizeConfig.heightMultiplier, color: Colors.white);
+      fontSize: 2 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
 
   static final TextStyle body1 = GoogleFonts.workSans(
-      fontSize: 3 * SizeConfig.heightMultiplier, color: Colors.white);
+      fontSize: 3 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
   static final TextStyle body2 = GoogleFonts.workSans(
-      fontSize: 2.5 * SizeConfig.heightMultiplier, color: Colors.white);
+      fontSize: 2.5 * SizeConfig.heightMultiplier, color: Colors.grey[300]);
   static final TextStyle display1 = GoogleFonts.workSans(
       fontSize: 2 * SizeConfig.heightMultiplier,
       color: Colors.white,
@@ -65,11 +65,11 @@ class AppTheme {
 
   static final TextStyle display2 = GoogleFonts.lato(
     fontSize: 1.5 * SizeConfig.heightMultiplier,
-    color: Colors.white,
+    color: Colors.grey[300],
   );
 
   static final TextStyle button = GoogleFonts.oswald(
       fontSize: 1.75 * SizeConfig.heightMultiplier,
-      color: Colors.white,
+      color: Colors.grey[300],
       fontWeight: FontWeight.bold);
 }
